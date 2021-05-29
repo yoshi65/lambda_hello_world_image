@@ -1,0 +1,1 @@
+# lambda_hello_world_image
