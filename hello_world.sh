@@ -2,7 +2,7 @@
 #
 # FileName: 	hello_world
 # CreatedDate:  2021-05-29 17:43:34 +0900
-# LastModified: 2021-05-29 18:28:01 +0900
+# LastModified: 2021-05-31 09:23:17 +0900
 #
 
 set -eu
@@ -13,7 +13,7 @@ ecr_name="dummy"
 tag="latest"
 
 usage_exit() {
-  echo "usage: grep [-d] [-p profile] [-n ecr_name] [-t tag]"
+  echo "usage: ./hello_world.sh [-d] [-p profile] [-n ecr_name] [-t tag]"
   exit 1
 }
 

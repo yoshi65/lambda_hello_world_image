@@ -23,7 +23,7 @@ If you need to delete this
 
 # Option
 ```sh
-usage: grep [-d] [-p profile] [-n ecr_name] [-t tag]
+usage: ./hello_world.sh [-d] [-p profile] [-n ecr_name] [-t tag]
     -d: Delete ecr
     -p: Set AWS profile (default: default)
     -n: Set ecrECR name (default: dummy)
