@@ -22,7 +22,7 @@ do
     case $OPT in
         p)  profile=$OPTARG
             ;;
-        p)  ecr_name=$OPTARG
+        n)  ecr_name=$OPTARG
             ;;
         t)  tag=$OPTARG
             ;;
